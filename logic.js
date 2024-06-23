@@ -88,7 +88,7 @@ function handleSlide(e){
     if(hasLost() == true){
 
         setTimeout(() => {
-            alert("HAHA BANO");
+            alert("GAME OVER!");
             restartGame();
             alert("Click any arrow key to restart");
         }, 100)
